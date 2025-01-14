@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
         # 初期化
         file_basename = os.path.basename(file)
-        posdata.write(file_basename + ' ')
+        posdata.write(f"\n{file_basename} ")
         for noun in noun_hash:
                 noun_frequency = noun_hash[noun]
                 noun_set = noun + ':' + str(noun_frequency) + ','
