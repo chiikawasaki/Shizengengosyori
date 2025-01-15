@@ -10,7 +10,7 @@ if __name__ == "__main__":
     keyword = args[1]
 
     # 転置インデックスを読み込む
-    index_file = open('index.txt','r')
+    index_file = open('index_advance.txt','r')
     index_hash = {}
     # indecx_hashに格納
     for line in index_file:
