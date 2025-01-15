@@ -22,5 +22,7 @@ if __name__ == "__main__":
     
     # 検索キーワードが含まれる記事を検索
     for key in index_hash:
-        if keyword in key:
-            print(f"{key} {index_hash[key]}")
+        if keyword == key:
+            file_list = index_hash[key].split(',')
+            for file in file_list:
+                print(file)
