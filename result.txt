@@ -1,0 +1,95 @@
+/Users/motojisaki/Desktop/自然言語処理/Corpus/017/jawiki017_164.txt 太陽電池 187.39856627058043
+/Users/motojisaki/Desktop/自然言語処理/Corpus/129/jawiki129_187.txt ソーラーカー 166.57650335162705
+/Users/motojisaki/Desktop/自然言語処理/Corpus/396/jawiki396_1817.txt 東海チャレンジャー 145.75444043267368
+/Users/motojisaki/Desktop/自然言語処理/Corpus/376/jawiki376_116.txt 太陽電池時計 72.87722021633684
+/Users/motojisaki/Desktop/自然言語処理/Corpus/384/jawiki384_1712.txt 有機太陽電池 72.87722021633684
+/Users/motojisaki/Desktop/自然言語処理/Corpus/121/jawiki121_999.txt ソーラーパネル 62.46618875686015
+/Users/motojisaki/Desktop/自然言語処理/Corpus/326/jawiki326_2204.txt ソーラーグレードシリコン 62.46618875686015
+/Users/motojisaki/Desktop/自然言語処理/Corpus/515/jawiki515_1722.txt 有機薄膜太陽電池 62.46618875686015
+/Users/motojisaki/Desktop/自然言語処理/Corpus/384/jawiki384_2297.txt シャープ堺工場 52.05515729738345
+/Users/motojisaki/Desktop/自然言語処理/Corpus/162/jawiki162_1266.txt サンビスタ　（シャープ） 41.64412583790676
+/Users/motojisaki/Desktop/自然言語処理/Corpus/516/jawiki516_327.txt ペロブスカイト半導体 41.64412583790676
+/Users/motojisaki/Desktop/自然言語処理/Corpus/563/jawiki563_2032.txt 生物太陽電池 41.64412583790676
+/Users/motojisaki/Desktop/自然言語処理/Corpus/015/jawiki015_199.txt 太陽光発電 31.233094378430074
+/Users/motojisaki/Desktop/自然言語処理/Corpus/229/jawiki229_681.txt マイクロ・テック 31.233094378430074
+/Users/motojisaki/Desktop/自然言語処理/Corpus/296/jawiki296_1895.txt サンレーサー 31.233094378430074
+/Users/motojisaki/Desktop/自然言語処理/Corpus/360/jawiki360_2206.txt ＹＯＣＡＳＯＬ 31.233094378430074
+/Users/motojisaki/Desktop/自然言語処理/Corpus/496/jawiki496_1882.txt ロッブリー太陽光発電所 31.233094378430074
+/Users/motojisaki/Desktop/自然言語処理/Corpus/032/jawiki032_986.txt 昭和シェル石油 20.82206291895338
+/Users/motojisaki/Desktop/自然言語処理/Corpus/099/jawiki099_918.txt ランプ　（照明器具） 20.82206291895338
+/Users/motojisaki/Desktop/自然言語処理/Corpus/101/jawiki101_436.txt マーズ・パスファインダー 20.82206291895338
+/Users/motojisaki/Desktop/自然言語処理/Corpus/138/jawiki138_832.txt ソーラーアーク 20.82206291895338
+/Users/motojisaki/Desktop/自然言語処理/Corpus/159/jawiki159_948.txt 堺泉北臨海工業地帯 20.82206291895338
+/Users/motojisaki/Desktop/自然言語処理/Corpus/242/jawiki242_662.txt 宇宙太陽光発電 20.82206291895338
+/Users/motojisaki/Desktop/自然言語処理/Corpus/326/jawiki326_533.txt 太陽光発電のコスト 20.82206291895338
+/Users/motojisaki/Desktop/自然言語処理/Corpus/351/jawiki351_2380.txt 角島秀輝 20.82206291895338
+/Users/motojisaki/Desktop/自然言語処理/Corpus/542/jawiki542_1140.txt 電動航空機 20.82206291895338
+/Users/motojisaki/Desktop/自然言語処理/Corpus/542/jawiki542_933.txt ナノ発電機 20.82206291895338
+/Users/motojisaki/Desktop/自然言語処理/Corpus/005/jawiki005_288.txt 半導体 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/014/jawiki014_20.txt 量子ドット 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/016/jawiki016_398.txt 送電 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/033/jawiki033_780.txt 昭和基地 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/036/jawiki036_626.txt 電気自動車 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/042/jawiki042_633.txt ＮＳＴ新潟総合テレビ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/043/jawiki043_464.txt 新潟テレビ２１ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/052/jawiki052_182.txt ヴァンガード　（ロケット） 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/057/jawiki057_859.txt 日本板硝子 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/076/jawiki076_420.txt 尼崎市交通局 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/089/jawiki089_605.txt 放送衛星システム 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/091/jawiki091_1115.txt 電波障害 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/099/jawiki099_462.txt 懐中電灯 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/105/jawiki105_862.txt ヒッパルコス　（人工衛星） 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/110/jawiki110_1048.txt ニュー・ホライズンズ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/110/jawiki110_438.txt クォーツ時計 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/120/jawiki120_619.txt 光エレクトロニクス 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/153/jawiki153_1026.txt すざく 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/154/jawiki154_364.txt チャンギ海軍基地 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/170/jawiki170_432.txt ニューヨーク州立大学 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/171/jawiki171_222.txt 光電子 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/179/jawiki179_4.txt サーベイヤー計画 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/181/jawiki181_1025.txt レインジャー計画 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/185/jawiki185_1374.txt オール電化住宅 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/222/jawiki222_1215.txt キャトル　（ガンダムシリーズ） 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/224/jawiki224_1594.txt 楽しい工作シリーズ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/250/jawiki250_1064.txt 電磁材料研究所 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/253/jawiki253_900.txt 磁気トルカ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/284/jawiki284_2389.txt ルシオール 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/303/jawiki303_1420.txt フォボス１号 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/316/jawiki316_1297.txt リアクションホイール 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/327/jawiki327_2029.txt Ｇｏｏｇｌｅｐｌｅｘ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/334/jawiki334_2093.txt サンテックパワー 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/340/jawiki340_1022.txt サーブ・ＥＶ－１ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/342/jawiki342_2347.txt マツダ・鏑 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/350/jawiki350_370.txt ニューロング精密工業 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/369/jawiki369_313.txt 南太平洋潮位・気候監視プロジェクト 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/372/jawiki372_1941.txt 軌道エレベータ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/377/jawiki377_7.txt かがやき　（人工衛星） 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/381/jawiki381_2515.txt ソーラー・ダイナミクス・オブザーバトリー 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/384/jawiki384_672.txt アポジキックモーター 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/390/jawiki390_1918.txt フライズアイ・ドーム 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/393/jawiki393_311.txt スマートハウス 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/403/jawiki403_169.txt ルノホート１号 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/404/jawiki404_655.txt ミール・ドッキングモジュール 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/405/jawiki405_2430.txt コロナス・フォトン 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/407/jawiki407_1644.txt ＩＮＴＡＳＡＴ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/413/jawiki413_2297.txt ＱｕａｋｅＳａｔ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/418/jawiki418_2316.txt ＳＴ－２ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/431/jawiki431_510.txt 福山太陽光発電所 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/448/jawiki448_1110.txt ＣｒｙｏＳａｔ－２ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/448/jawiki448_2058.txt ＩＧＺＯ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/460/jawiki460_1997.txt ＲａｚａｋＳＡＴ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/461/jawiki461_1960.txt ＤｕｂａｉＳａｔ－１ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/471/jawiki471_365.txt ミネルバ　（ローバー） 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/482/jawiki482_1147.txt デザインオフィスライン 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/487/jawiki487_172.txt パナソニックソーラーシステム製造 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/494/jawiki494_2106.txt 日産グリーンエナジーファームイン大分 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/502/jawiki502_606.txt ＥＭドライブ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/524/jawiki524_1760.txt ジョン・Ｄ・ディンゲル・トランジット・センター 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/527/jawiki527_559.txt プリンテッド・エレクトロニクス 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/534/jawiki534_2459.txt 人工網膜 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/536/jawiki536_2531.txt ショックレー半導体研究所 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/539/jawiki539_1985.txt ＰＲＯＣＹＯＮ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/539/jawiki539_2156.txt つばめ　（人工衛星） 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/549/jawiki549_2469.txt 月軌道プラットフォームゲートウェイ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/559/jawiki559_1569.txt ドラゴン２ 10.41103145947669
+/Users/motojisaki/Desktop/自然言語処理/Corpus/564/jawiki564_788.txt ＣＨＥＯＰＳ 10.41103145947669
