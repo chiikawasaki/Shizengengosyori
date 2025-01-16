@@ -3,10 +3,10 @@ import os
 import math
 import dbm as gdbm
 
+index_file = open('index_advance2.txt','r')
 N = 129347 # 全記事数
-posdata = open('posdata.txt','r')
-dfdata = open('df.txt','r')
 
+# テキストを辞書型に変換
 def parse_data(lines, delimiter='\t', min_length=2):
     result = {}
     for line in lines:
@@ -15,10 +15,54 @@ def parse_data(lines, delimiter='\t', min_length=2):
             result[line[0]] = line[1]
     return result
 
+# 上位2記事のリストを返す
+def easy_search(keywords):
+    top2_article_list =[]
+    index_hash = parse_data(index_file," ")
+    keywords_count = len(keywords)
+    file_tfidf_sum_hash = {}
+    count_files_hash = {}
+    and_file_hash = {}
+
+    for keyword in keywords:
+        if keyword in index_hash.keys():
+                file_list = index_hash[keyword].split(',')
+                df = len(file_list)
+
+                # 記事とヒット回数を記録_
+                for file in file_list:
+                    file_name = file.split(':')[0]
+                    tf = float(file.split(':')[1])
+                    tfidf = tf*math.log2(N/df)
+                    
+                    # 両方含まれている記事を格納
+                    if count_files_hash.get(file_name) is None:
+                        count_files_hash[file_name] = 1
+                        file_tfidf_sum_hash[file_name] = tfidf
+                    else:
+                        count_files_hash[file_name] += 1
+                        file_tfidf_sum_hash[file_name] += tfidf
+
+    for file in count_files_hash.keys():
+            if count_files_hash[file] == keywords_count:
+                and_file_hash[file] = file_tfidf_sum_hash[file]
+
+    # 降順でソート
+    sorted_list = sorted(and_file_hash.items(), key=lambda x:x[1], reverse=True)
+    count = 1
+    for file_path,tfidf in sorted_list:
+        top2_article_list.append(file_path)
+        count += 1
+        if count > 2:
+            break
+    return top2_article_list
+
+posdata = open('posdata.txt','r')
+dfdata = open('df.txt','r')
 noun_tf_hash = parse_data(posdata," ")
 noun_df_hash = parse_data(dfdata,"\t")
-# 入力された記事から記事に関連している単語:tfidf値の辞書型オブジェクトを生成
 def create_vector(file):
+
     object_vector = {}
     
     file_name = os.path.basename(file)
@@ -73,25 +117,36 @@ def calc_cosin(object_vector,result_vector):
         cos = 0
     else:
         cos = numerator / (object_denominator * result_denominator)
-    return cos    
-
+    return cos 
 
 def main():
    args = sys.argv
-   query = args[1]
-   # 単語ベクトルの生成（ 辞書型オブジェクト vector[名詞] = tfidf値 ）
-   object_vector = create_vector(query)
-   # 単語ベクトルの各要素（名詞）を含む記事集合→単語ベクトルの名詞のOR検索
-   search_result = search_article(object_vector)
-   score_hash = {}
-   for file in search_result:
-       # 単語ベクトルの生成（ 辞書型オブジェクト vector[名詞] = tfidf値 ）
-       result_vector = create_vector(file)
-       # 記事間類似度の計算
-       cos = calc_cosin(object_vector,result_vector)
-       if cos > 0.3:
-           score_hash[file] = cos
+   query = args[1:]
 
+   # 入力されたキーワードで検索を実行
+   search_result = easy_search(query)
+
+   p_vec = {}
+   # 検索結果の上位２文書を適合文書としてベクトル生成（実装せよ）→ p_vec
+   for file in search_result:
+        vec = create_vector(file)
+        for noun in vec.keys():
+            if noun not in p_vec.keys():
+                p_vec[noun] = vec[noun]
+   
+   # 単語ベクトルの各要素を含む記事集合
+   search_result = search_article(p_vec)
+
+   score_hash = {}   
+   for file in search_result:
+        # 単語ベクトルの生成（ hash{名詞} = tfidf値 ）
+        result_vector = create_vector(file)
+        # 記事間類似度の計算
+        cos = calc_cosin(p_vec,result_vector)
+       
+        if cos > 0.3:
+            score_hash[file] = cos
+    
    sorted_list = sorted(score_hash.items(), key=lambda x:x[1], reverse=True)
    # 類似度の高い記事を出力
    count = 1
@@ -99,10 +154,11 @@ def main():
         file_basename = os.path.basename(file_path)
         title_db = gdbm.open('title','r')
         title = title_db[file_basename].decode('utf-8')
-        print(count,file_path,title,cos)
+        print(count,file_path,cos)
         print(f"-> {title}")
         count += 1
    title_db.close()
+
 
 if __name__ == "__main__":
     main()
