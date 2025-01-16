@@ -121,10 +121,11 @@ def calc_cosin(object_vector,result_vector):
 
 def main():
    args = sys.argv
-   query = args[1:]
-
+   query = args[1]
+   
+   keywords = query.split(" ")
    # 入力されたキーワードで検索を実行
-   search_result = easy_search(query)
+   search_result = easy_search(keywords)
 
    p_vec = {}
    # 検索結果の上位２文書を適合文書としてベクトル生成（実装せよ）→ p_vec
